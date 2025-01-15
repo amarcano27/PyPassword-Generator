@@ -23,7 +23,9 @@ Welcome to the **PyPassword Generator**! This is a simple Python-based program t
 Enter the number of letters you want in your password.
 Enter the number of symbols.
 Enter the number of numbers.
+
 4. The program will generate and display a random password.
+
 Code Breakdown
 Modules
 random: Utilized for selecting random characters and shuffling the final password.
