@@ -27,29 +27,31 @@ Enter the number of numbers.
 4. The program will generate and display a random password.
 
 Code Breakdown
+
 Modules
-random: Utilized for selecting random characters and shuffling the final password.
+   random: Utilized for selecting random characters and shuffling the final password.
 Logic
-Character Pools:
+   Character Pools:
+   letters: Upper and lowercase English letters.
+   numbers: Digits from 0 to 9.
+   symbols: Common special characters for added security.
 
-letters: Upper and lowercase English letters.
-numbers: Digits from 0 to 9.
-symbols: Common special characters for added security.
 User Inputs:
-
 The program asks how many letters, symbols, and numbers the user wants.
+
 Password Generation:
+   Picks random elements from the respective pools based on user input.
+   Combines the selected characters into a list.
+   Shuffles the list to randomize the order.
 
-Picks random elements from the respective pools based on user input.
-Combines the selected characters into a list.
-Shuffles the list to randomize the order.
 Password Output:
+   Joins the shuffled list into a string and prints the final password.
 
-Joins the shuffled list into a string and prints the final password.
 Requirements
 Python 3.x installed on your machine.
+
 Notes
 Make sure to keep your generated passwords private and secure.
+
 The program does not store any data, ensuring complete privacy.
-License
-This project is released under the MIT License. See the LICENSE file for details.
+
